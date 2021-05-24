@@ -1,0 +1,32 @@
+.title {
+    margin-left: 5px;
+}
+
+.movie_pics, .bigmovie {
+    display: flex;
+
+}
+
+.movie_pic {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.movie_pic:hover, .bigmovie:hover {
+    transform: scale(1.08);
+}
+
+.bigmovie {
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.movie_pics::-webkit-scrollbar {
+    display: none;
+}
